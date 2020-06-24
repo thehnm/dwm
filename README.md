@@ -44,3 +44,4 @@ and (re)compiling the source code.
 
 ## Patches
 - actualfullscreen (https://dwm.suckless.org/patches/actualfullscreen/)
+- cyclelayouts (https://dwm.suckless.org/patches/cyclelayouts/)
