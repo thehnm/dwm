@@ -48,3 +48,4 @@ and (re)compiling the source code.
 - attachdirection (https://dwm.suckless.org/patches/attachdirection/)
 - bottomstack (https://dwm.suckless.org/patches/bottomstack/)
 - pertag configuration (https://dwm.suckless.org/patches/pertag/)
+- customize dwm through commandline (https://dwm.suckless.org/patches/cmdcustomize/)
