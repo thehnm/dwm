@@ -53,3 +53,4 @@ and (re)compiling the source code.
 - statuspadding (https://dwm.suckless.org/patches/statuspadding/)
 - noborder (https://dwm.suckless.org/patches/noborder/)
 - vanitygaps (https://dwm.suckless.org/patches/vanitygaps/)
+- scratchpad (https://dwm.suckless.org/patches/scratchpad/)
