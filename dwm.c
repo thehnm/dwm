@@ -1971,8 +1971,6 @@ sigchld(int unused)
 void
 spawn(const Arg *arg)
 {
-	if (arg->v == dmenucmd)
-		dmenumon[0] = '0' + selmon->num;
 	selmon->tagset[selmon->seltags] &= ~scratchtag;
 	if (fork() == 0) {
 		if (dpy)
@@ -2580,16 +2578,16 @@ main(int argc, char *argv[])
 			colors[SchemeSel][1] = argv[++i];
 		else if (!strcmp("-sf",argv[i])) /* selected foreground color */
 			colors[SchemeSel][0] = argv[++i];
-		else if (!strcmp("-df", argv[i])) /* dmenu font */
-			dmenucmd[4] = argv[++i];
-		else if (!strcmp("-dnb",argv[i])) /* dmenu normal background color */
-			dmenucmd[6] = argv[++i];
-		else if (!strcmp("-dnf",argv[i])) /* dmenu normal foreground color */
-			dmenucmd[8] = argv[++i];
-		else if (!strcmp("-dsb",argv[i])) /* dmenu selected background color */
-			dmenucmd[10] = argv[++i];
-		else if (!strcmp("-dsf",argv[i])) /* dmenu selected foreground color */
-			dmenucmd[12] = argv[++i];
+		//else if (!strcmp("-df", argv[i])) /* dmenu font */
+		//	dmenucmd[4] = argv[++i];
+		//else if (!strcmp("-dnb",argv[i])) /* dmenu normal background color */
+		//	dmenucmd[6] = argv[++i];
+		//else if (!strcmp("-dnf",argv[i])) /* dmenu normal foreground color */
+		//	dmenucmd[8] = argv[++i];
+		//else if (!strcmp("-dsb",argv[i])) /* dmenu selected background color */
+		//	dmenucmd[10] = argv[++i];
+		//else if (!strcmp("-dsf",argv[i])) /* dmenu selected foreground color */
+		//	dmenucmd[12] = argv[++i];
 		else die(help());
 
 	if (!setlocale(LC_CTYPE, "") || !XSupportsLocale())
