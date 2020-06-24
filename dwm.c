@@ -1120,7 +1120,7 @@ grabkeys(void)
 char*
 help(void)
 {
-	return "usage: dwm [-hv] [-fn font] [-nb color] [-nf color] [-sb color] [-sf color]\n[-df font] [-dnf color] [-dnb color] [-dsf color] [-dsb color]\n";
+	return "usage: dwm [-hv] [-fn font] [-sb color] [-nb color] [-sfg color] [-sbg color]\n[-tsfg color] [-tsbg color] [-tnfg color] [-tnbg color]\n [-isfg color] [-isbg color] [-infg color] [-inbg color]\n";
 }
 
 void
@@ -2570,24 +2570,30 @@ main(int argc, char *argv[])
 			die(help());
 		else if (!strcmp("-fn", argv[i])) /* font set */
 			fonts[0] = argv[++i];
-		else if (!strcmp("-nb",argv[i])) /* normal background color */
-			colors[SchemeNorm][1] = argv[++i];
-		else if (!strcmp("-nf",argv[i])) /* normal foreground color */
-			colors[SchemeNorm][0] = argv[++i];
-		else if (!strcmp("-sb",argv[i])) /* selected background color */
-			colors[SchemeSel][1] = argv[++i];
-		else if (!strcmp("-sf",argv[i])) /* selected foreground color */
-			colors[SchemeSel][0] = argv[++i];
-		//else if (!strcmp("-df", argv[i])) /* dmenu font */
-		//	dmenucmd[4] = argv[++i];
-		//else if (!strcmp("-dnb",argv[i])) /* dmenu normal background color */
-		//	dmenucmd[6] = argv[++i];
-		//else if (!strcmp("-dnf",argv[i])) /* dmenu normal foreground color */
-		//	dmenucmd[8] = argv[++i];
-		//else if (!strcmp("-dsb",argv[i])) /* dmenu selected background color */
-		//	dmenucmd[10] = argv[++i];
-		//else if (!strcmp("-dsf",argv[i])) /* dmenu selected foreground color */
-		//	dmenucmd[12] = argv[++i];
+		else if (!strcmp("-sb",argv[i])) /* selected border color */
+            colors[SchemeSel][2] = argv[++i];
+		else if (!strcmp("-nb",argv[i])) /* normal border color */
+			colors[SchemeNorm][2] = argv[++i];
+        else if (!strcmp("-sfg",argv[i])) /* statusbar foreground */
+            colors[SchemeStatus][0] = argv[++i];
+        else if (!strcmp("-sbg", argv[i])) /* statusbar background */
+            colors[SchemeStatus][1] = argv[++i];
+        else if (!strcmp("-tsfg", argv[i])) /* tagbar selected foreground */
+            colors[SchemeTagsSel][0] = argv[++i];
+        else if (!strcmp("-tsbg", argv[i])) /* tagbar selected background */
+            colors[SchemeTagsSel][1] = argv[++i];
+        else if (!strcmp("-tnfg", argv[i])) /* tagbar normal foreground*/
+            colors[SchemeTagsNorm][0] = argv[++i];
+        else if (!strcmp("-tnbg", argv[i])) /* tagbar normal background*/
+            colors[SchemeTagsNorm][1] = argv[++i];
+        else if (!strcmp("-isfg", argv[i])) /* infobar selected foreground*/
+            colors[SchemeInfoSel][0] = argv[++i];
+        else if (!strcmp("-isbg", argv[i])) /* infobar selected background*/
+            colors[SchemeInfoSel][1] = argv[++i];
+        else if (!strcmp("-infg", argv[i])) /* infobar normal foreground*/
+            colors[SchemeInfoNorm][0] = argv[++i];
+        else if (!strcmp("-inbg", argv[i])) /* infobar normal background*/
+            colors[SchemeInfoNorm][1] = argv[++i];
 		else die(help());
 
 	if (!setlocale(LC_CTYPE, "") || !XSupportsLocale())
