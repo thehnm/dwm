@@ -46,3 +46,4 @@ and (re)compiling the source code.
 - actualfullscreen (https://dwm.suckless.org/patches/actualfullscreen/)
 - cyclelayouts (https://dwm.suckless.org/patches/cyclelayouts/)
 - attachdirection (https://dwm.suckless.org/patches/attachdirection/)
+- bottomstack (https://dwm.suckless.org/patches/bottomstack/)
