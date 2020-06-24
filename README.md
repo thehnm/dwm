@@ -47,3 +47,4 @@ and (re)compiling the source code.
 - cyclelayouts (https://dwm.suckless.org/patches/cyclelayouts/)
 - attachdirection (https://dwm.suckless.org/patches/attachdirection/)
 - bottomstack (https://dwm.suckless.org/patches/bottomstack/)
+- pertag configuration (https://dwm.suckless.org/patches/pertag/)
