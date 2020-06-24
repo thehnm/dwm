@@ -52,3 +52,4 @@ and (re)compiling the source code.
 - hide vacant tags (https://dwm.suckless.org/patches/hide_vacant_tags/)
 - statuspadding (https://dwm.suckless.org/patches/statuspadding/)
 - noborder (https://dwm.suckless.org/patches/noborder/)
+- vanitygaps (https://dwm.suckless.org/patches/vanitygaps/)
