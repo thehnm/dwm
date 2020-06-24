@@ -49,3 +49,4 @@ and (re)compiling the source code.
 - bottomstack (https://dwm.suckless.org/patches/bottomstack/)
 - pertag configuration (https://dwm.suckless.org/patches/pertag/)
 - customize dwm through commandline (https://dwm.suckless.org/patches/cmdcustomize/)
+- hide vacant tags (https://dwm.suckless.org/patches/hide_vacant_tags/)
