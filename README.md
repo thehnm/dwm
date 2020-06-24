@@ -51,3 +51,4 @@ and (re)compiling the source code.
 - customize dwm through commandline (https://dwm.suckless.org/patches/cmdcustomize/)
 - hide vacant tags (https://dwm.suckless.org/patches/hide_vacant_tags/)
 - statuspadding (https://dwm.suckless.org/patches/statuspadding/)
+- noborder (https://dwm.suckless.org/patches/noborder/)
