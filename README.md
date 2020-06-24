@@ -54,3 +54,4 @@ and (re)compiling the source code.
 - noborder (https://dwm.suckless.org/patches/noborder/)
 - vanitygaps (https://dwm.suckless.org/patches/vanitygaps/)
 - scratchpad (https://dwm.suckless.org/patches/scratchpad/)
+- colorbar (https://dwm.suckless.org/patches/colorbar/)
