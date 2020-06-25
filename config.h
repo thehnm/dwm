@@ -120,8 +120,8 @@ static Key keys[] = {
 	{ MODKEY|ShiftMask,             XK_y,      incrovgaps,     {.i = +1 } },
 	{ MODKEY|ShiftMask,             XK_x,      incrovgaps,     {.i = -1 } },
 	{ MODKEY|Mod4Mask,              XK_f,      togglefullscr,  {0} },
-	{ MODKEY|ShiftMask,	   	        XK_comma,  cyclelayout,    {.i = -1 } },
-	{ MODKEY|ShiftMask,             XK_period, cyclelayout,    {.i = +1 } },
+	{ MODKEY|ShiftMask,	   	        XK_plus,   cyclelayout,    {.i = -1 } },
+	{ MODKEY|ShiftMask,             XK_minus,  cyclelayout,    {.i = +1 } },
 	TAGKEYS(                        XK_1,                      0)
 	TAGKEYS(                        XK_2,                      1)
 	TAGKEYS(                        XK_3,                      2)
