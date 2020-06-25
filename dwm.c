@@ -1120,7 +1120,24 @@ grabkeys(void)
 char*
 help(void)
 {
-	return "usage: dwm [-hv] [-fn font] [-sb color] [-nb color] [-sfg color] [-sbg color]\n[-tsfg color] [-tsbg color] [-tnfg color] [-tnbg color]\n [-isfg color] [-isbg color] [-infg color] [-inbg color]\n";
+    char* HELPSTRING  = "Usage: dwm \n \
+-hv           Print the usage help\n \
+-fn    font   Defines the font. Use fontconfig syntax\n \
+-sb    color  Defines the selected border color\n \
+-nb    color  Defines the normal border color\n \
+-sfg   color  Defines the foreground color for the right statusbar\n \
+-sbg   color  Defines the background color for the right statusbar\n \
+-tsfg  color  Defines the selected foreground color for the left tagbar\n \
+-tsbg  color  Defines the selected background color for the left tagbar\n \
+-tnfg  color  Defines the normal foreground color for the left tagbar\n \
+-tnbg  color  Defines the normal background color for the left tagbar\n \
+-isfg  color  Defines the selected foreground color for the middle infobar\n \
+-isbg  color  Defines the selected background color for the middle infobar\n \
+-infg  color  Defines the normal foreground color for the middle infobar\n \
+-inbg  color  Defines the normal background color for the middle infobar\n \
+";
+
+    return HELPSTRING;
 }
 
 void
