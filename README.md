@@ -1,4 +1,4 @@
-# dwm - dynamic window manager
+# TheHNM's build of dwm - dynamic window manager
 dwm is an extremely fast, small, and dynamic window manager for X.
 
 ## Requirements
@@ -41,17 +41,18 @@ exec dwm
 ## Configuration
 The configuration of dwm is done by creating a custom config.h
 and (re)compiling the source code.
+Or by using the command-line parameters.
 
 ## Patches
-- actualfullscreen (https://dwm.suckless.org/patches/actualfullscreen/)
-- cyclelayouts (https://dwm.suckless.org/patches/cyclelayouts/)
-- attachdirection (https://dwm.suckless.org/patches/attachdirection/)
-- bottomstack (https://dwm.suckless.org/patches/bottomstack/)
-- pertag configuration (https://dwm.suckless.org/patches/pertag/)
-- customize dwm through commandline (https://dwm.suckless.org/patches/cmdcustomize/)
-- hide vacant tags (https://dwm.suckless.org/patches/hide_vacant_tags/)
-- statuspadding (https://dwm.suckless.org/patches/statuspadding/)
-- noborder (https://dwm.suckless.org/patches/noborder/)
-- vanitygaps (https://dwm.suckless.org/patches/vanitygaps/)
-- scratchpad (https://dwm.suckless.org/patches/scratchpad/)
-- colorbar (https://dwm.suckless.org/patches/colorbar/)
+- [actualfullscreen](https://dwm.suckless.org/patches/actualfullscreen/)
+- [cyclelayouts](https://dwm.suckless.org/patches/cyclelayouts/)
+- [attachdirection](https://dwm.suckless.org/patches/attachdirection/)
+- [bottomstack](https://dwm.suckless.org/patches/bottomstack/)
+- [pertag configuration](https://dwm.suckless.org/patches/pertag/)
+- [customize dwm through commandline](https://dwm.suckless.org/patches/cmdcustomize/)
+- [hide vacant tags](https://dwm.suckless.org/patches/hide_vacant_tags/)
+- [statuspadding](https://dwm.suckless.org/patches/statuspadding/)
+- [noborder](https://dwm.suckless.org/patches/noborder/)
+- [vanitygaps](https://dwm.suckless.org/patches/vanitygaps/)
+- [scratchpad](https://dwm.suckless.org/patches/scratchpad/)
+- [colorbar](https://dwm.suckless.org/patches/colorbar/)
