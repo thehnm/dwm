@@ -23,8 +23,9 @@ exec dwm
 
 In order to connect dwm to a specific display, make sure that
 the DISPLAY environment variable is set correctly, e.g.:
-
-    DISPLAY=foo.bar:1 exec dwm
+```
+DISPLAY=foo.bar:1 exec dwm
+```
 
 (This will start dwm on display :1 of the host foo.bar.)
 
