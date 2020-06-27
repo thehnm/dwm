@@ -57,3 +57,4 @@ Or by using the command-line parameters.
 - [vanitygaps](https://dwm.suckless.org/patches/vanitygaps/)
 - [scratchpad](https://dwm.suckless.org/patches/scratchpad/)
 - [colorbar](https://dwm.suckless.org/patches/colorbar/)
+- [restartsig](https://dwm.suckless.org/patches/restartsig/)
