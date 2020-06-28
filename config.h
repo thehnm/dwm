@@ -19,19 +19,19 @@ static const char col_gray2[]       = "#444444";
 static const char col_gray3[]       = "#bbbbbb";
 static const char col_gray4[]       = "#eeeeee";
 static const char col_cyan[]        = "#005577";
-static const char col_norm[]     = "#c5c8c6";
-static const char col_sel[]      = "#768896";
+static const char col_norm[]        = "#c5c8c6";
+static const char col_sel[]         = "#768896";
 static const char col_bg[]          = "#282828";
 
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
-	[SchemeNorm] = { col_gray3, col_gray1, col_bg}, // First two values will be overwritten
-	[SchemeSel]  = { col_gray4, col_cyan,  col_sel}, // First two values will be overwritten
-	[SchemeStatus]  = { col_norm, col_bg,  "#000000"  }, // Statusbar right {text,background,not used but cannot be empty}
-	[SchemeTagsSel]  = { col_bg, col_sel,  "#000000"  }, // Tagbar left selected {text,background,not used but cannot be empty}
-    [SchemeTagsNorm]  = { col_norm, col_bg,  "#000000"  }, // Tagbar left unselected {text,background,not used but cannot be empty}
-    [SchemeInfoSel]  = { col_norm, col_bg,  "#000000"  }, // infobar middle  selected {text,background,not used but cannot be empty}
-    [SchemeInfoNorm]  = { col_norm, col_bg,  "#000000"  }, // infobar middle  unselected {text,background,not used but cannot be empty}
+	[SchemeNorm]     = { col_gray3, col_gray1, col_bg    }, // First two values will be overwritten
+	[SchemeSel]      = { col_gray4, col_cyan,  col_sel   }, // First two values will be overwritten
+	[SchemeStatus]   = { col_norm,  col_bg,    "#000000" }, // Statusbar right {text,background,not used but cannot be empty}
+	[SchemeTagsSel]  = { col_bg,    col_sel,   "#000000" }, // Tagbar left selected {text,background,not used but cannot be empty}
+    [SchemeTagsNorm] = { col_norm, col_bg,     "#000000" }, // Tagbar left unselected {text,background,not used but cannot be empty}
+    [SchemeInfoSel]  = { col_norm, col_bg,     "#000000" }, // infobar middle  selected {text,background,not used but cannot be empty}
+    [SchemeInfoNorm] = { col_norm, col_bg,     "#000000" }, // infobar middle  unselected {text,background,not used but cannot be empty}
 };
 
 /* tagging */
@@ -56,12 +56,12 @@ static const int attachdirection = 5;    /* 0 default, 1 above, 2 aside, 3 below
 
 static const Layout layouts[] = {
 	/* symbol     arrange function */
-	{ "[]=",      tile },    /* first entry is default */
-	{ "><>",      NULL },    /* no layout function means floating behavior */
-	{ "[M]",      monocle },
-	{ "TTT",      bstack },
+	{ "[]=",      tile        }, /* first entry is default */
+	{ "><>",      NULL        }, /* no layout function means floating behavior */
+	{ "[M]",      monocle     },
+	{ "TTT",      bstack      },
 	{ "===",      bstackhoriz },
-	{ NULL,       NULL },
+	{ NULL,       NULL        },
 };
 
 /* key definitions */
