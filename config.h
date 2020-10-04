@@ -25,7 +25,7 @@ static const char col_bg[]          = "#282828";
 
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
-	[SchemeNorm]     = { col_gray3, col_gray1, col_bg    }, // First two values will be overwritten
+	[SchemeNorm]     = { col_gray3, col_gray1, col_gray1 }, // First two values will be overwritten
 	[SchemeSel]      = { col_gray4, col_cyan,  col_sel   }, // First two values will be overwritten
 	[SchemeStatus]   = { col_norm,  col_bg,    "#000000" }, // Statusbar right {text,background,not used but cannot be empty}
 	[SchemeTagsSel]  = { col_bg,    col_sel,   "#000000" }, // Tagbar left selected {text,background,not used but cannot be empty}
