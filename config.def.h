@@ -269,7 +269,7 @@ static const Key keys[] = {
 	{ MODKEY|Mod4Mask,              XK_0,          togglegaps,             {0} },
 	{ MODKEY|Mod4Mask,    			XK_d,          defaultgaps,            {0} },
 	{ MODKEY,                       XK_Tab,        view,                   {0} },
-	{ MODKEY,             			XK_q,          killclient,             {0} },
+	{ MODKEY|ShiftMask,				XK_q,          killclient,             {0} },
 	{ MODKEY|ShiftMask,             XK_F5,         xrdb,                   {.v = NULL } },
 	{ MODKEY|ShiftMask,             XK_t,          setlayout,              {.v = &layouts[0]} },
 	{ MODKEY|ShiftMask,             XK_f,          setlayout,              {.v = &layouts[1]} },
